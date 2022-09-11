@@ -45,6 +45,7 @@ const UniverseRickAndMorty = () => {
         type="text"
         value={typeId}
         onChange={(e) => setTypeId(e.target.value)}
+        placeholder="Type a location id"
         className="input-container"
       />
       <button onClick={searchType}>Search</button>
