@@ -61,10 +61,11 @@ padding: 0;
 }
 .header-container {
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   color: whitesmoke;
   background: #062226;
-  margin: 2rem;
+  margin: 3rem;
+  padding: 2rem;
 }
 .header-container h4 {
   background: #062226;
