@@ -13,11 +13,18 @@ const CharactersItems = ({ url }) => {
         <img src={character.image} alt="" />
         <div className="chatacter-name">{character.name}</div>
         <hr />
-        <h4 className="character-card_h4">RAZA</h4>
-        <p className="character-card_p">{character.species}</p>
-        <h4 className="character-card_h4">ORIGEN</h4>
-        <p className="character-card_p">{character.origin?.name}</p>
-        <h4 className="character-card_h4">APARICION EN EPISODIO</h4>
+        <div className="character-card-info">
+          <h4 className="character-card_h4">RAZA</h4>
+          <p className="character-card_p">{character.species}</p>
+        </div>
+        <div className="character-card-info">
+          <h4 className="character-card_h4">ORIGEN</h4>
+          <p className="character-card_p">{character.origin?.name}</p>
+        </div>
+        <div className="character-card-info">
+          <h4 className="character-card_h4">APARICION EN EPISODIO</h4>
+        <p className="character-card_p">{character.episode?.length}</p>
+        </div>
       </div>
     </li>
   );
