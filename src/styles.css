@@ -57,6 +57,7 @@ padding: 0;
   margin-right: 10px;
   background: whitesmoke;
   border-radius: 10px;
+  color: #062226;
 }
 .header-container {
   display: flex;
